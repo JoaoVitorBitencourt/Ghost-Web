@@ -1,0 +1,12 @@
+.headerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    
+    h1 {
+        font-weight: 600;
+        font-family: Lexend, sans-serif;
+        color: var(--gray-800);
+    }
+}
