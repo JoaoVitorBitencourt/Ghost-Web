@@ -18,17 +18,17 @@ a {
 
 :root {
   --white: #FFF;
-  
+
   --gray-50: #F7F8FA;
   --gray-100: #E6E8EB;
   --gray-200: #AFB2B1;
   --gray-500: #808080;
   --gray-800: #494D4B;
-  
+
   --green-500: #04D361;
-  
+
   --purple-300: #9F75FF;
-  --purple-400: #9164FA; 
+  --purple-400: #9164FA;
   --purple-500: #8257E5;
   --purple-800: #6F48C9;
 }
@@ -46,7 +46,7 @@ button {
   text-decoration: none;
   height: 10vh;
   width: 10vw;
-  color: var(--gray-800);
+  color: var(--gray-100);
 
   &:hover:not(:disabled) {
     filter: brightness(0.95);

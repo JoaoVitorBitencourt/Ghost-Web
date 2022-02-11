@@ -1,0 +1,23 @@
+.Card {
+    color: var(--gray-800);
+    height: 25vh;
+    width: 30vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s;
+
+    border-radius: 1.5rem;
+
+    background: linear-gradient(143.8deg, rgba(145, 100, 250, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    &:hover:not(:disabled) {
+        filter: brightness(0.5);
+        height: 30vh;
+        width: 35vw;
+      }
+
+    border: 2px solid var(--purple-300) ;
+    margin: 10px;
+}
